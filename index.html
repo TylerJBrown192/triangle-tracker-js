@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <title>Triangle Tracker 3000</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Triangle Tracker 3000</h1>
+
+      <div class="col-md-3">
+        <h2>New Triangle</h2>
+        <form>
+          <div class="form-group">
+            <label for="length1">Length 1</label>
+            <input id="length1" />
+          </div>
+          <div class="form-group">
+            <label for="length2">Length 2</label>
+            <input id="length2" />
+          </div>
+          <div class="form-group">
+            <label for="length3">Length 3</label>
+            <input id="length3" />
+          </div>
+          <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Add</button>
+        </form>
+      </div>
+
+      <div class="col-md-3">
+        <h2>Equilateral</h2>
+      </div>
+
+      <div class="col-md-3">
+        <h2>Isosceles</h2>
+      </div>
+
+      <div class="col-md-3">
+        <h2>Scalene</h2>
+      </div>
+      <!-- Button trigger modal -->
+      <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+        Launch demo modal
+      </button> -->
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">NOPE</h4>
+            </div>
+            <div class="modal-body">
+              nope.
+            </div>
+            <!-- <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
